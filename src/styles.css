@@ -1,1 +1,151 @@
 /* You can add global styles to this file, and also import other style files */
+.border {
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.9413515406162465) 70%, rgba(0,212,255,1) 100%);
+}
+.navbar-brand {
+    padding-right: 15%;
+}
+
+.Informa {
+    display: block;
+    padding: 31% 0% 0% 38%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(206, 79, 0);
+    color: white;
+
+}
+
+.tit {
+    padding-left: 38%;
+    background-color:rgb(206, 79, 0);
+    color: white;
+}
+
+.target {
+    padding: 0% 0% 0% 35%;
+    display: block;
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.7em;
+  
+    background-color: rgb(206, 79, 0);
+    color: white;
+}
+
+
+
+.dec {
+    padding: 0% 0% 0% 17%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    background-color: rgb(206, 79, 0);
+    color: white;
+}
+
+.stat {
+    padding: 10% 0% 0% 0%;
+    background-color: rgb(206, 79, 0);
+    color: white;
+}
+
+.player {
+    padding-left: 25%;
+}
+
+table {
+    border-spacing: 0;
+    empty-cells: hide;
+    }
+    td {
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 1px solid #F4EEE8;
+    transition: all 0.5s linear;
+    }
+    td:first-child {
+    text-align: left;
+    color: #3D3511;
+    font-weight: bold;
+    }
+    th {
+    padding: 10px 20px;
+    color: #3D3511;
+    border-bottom: 1px solid #F4EEE8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    td:nth-child(even) {
+    background:rgb(255, 128, 0);
+    }
+    td:nth-child(odd) {
+    background: rgb(14, 14, 68);
+    }
+    th:nth-child(even)  {
+    background: rgb(255, 128, 0);
+    }
+    th:nth-child(odd)  {
+    background: rgb(14, 14, 68);
+    }
+    .round-top {
+    border-top-left-radius: 5px;
+    }
+    .round-bottom {
+    border-bottom-left-radius: 5px;
+    }
+    tr:hover td{
+    background: red;
+    font-weight: bold;
+    }
+
+
+
+.position {
+    padding: 2% 0% 0% 0%;
+    background-color: rgb(206, 79, 0);
+    color: white;
+}
+
+
+
+
+.submit1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 0.9em;
+    font-family: 'Montserrat', sans-serif;
+    height: 40px;
+    width: 100px;
+
+}
+
+.clear {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 0.9em;
+    font-family: 'Montserrat', sans-serif;
+    height: 40px;
+    width: 100px;
+    
+}
+
+.form {
+    padding: 0% 0% 0% 0%;
+    background-color: rgb(206, 79, 0);
+    color: white;
+}
+
+.user {
+    padding-left: 20%;
+    padding-top: 33%;
+    background-color: rgb(206, 79, 0);
+    color: white;
+}
+
+.UInfo {
+    padding-bottom: 10%;
+    padding-left: 35%;
+    background-color: rgb(206, 79, 0);
+    color: white;
+}
